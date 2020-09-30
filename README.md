@@ -1,3 +1,14 @@
 # Repositorio oficial del #CloudUNTBootcamp: Web Fundamentals (HTML + CSS) 🚀
 
 ![#CloudUNTBootcamps](https://repository-images.githubusercontent.com/298617841/68b66300-0298-11eb-931f-2c16b5cbe9e1)
+
+# ¿Cómo colaborar en este proyecto?
+
+1. **Bifurcar este repositorio** (Botón **fork** del repositorio. Esto creará una copia del repositorio en tu cuenta de Github)
+1. **Clonar el repositorio copiado** en su equipo. La url del repositorio debería ser: `https://github.com/NombreDeUsuarioDeGithub/cloudunt-bootcamp.git`
+3. **Crear una rama** con el siguiente formato de nombre `challenge/nombre-apellido`. Ej: `challenge/johan-villanueva`.
+4. **Realizar el trabajo** correspondiente al challenge.
+5. **Hacer un commit** con el siguente mensaje: `challenge(session-01): nombre apellido`.
+6. **Subir su rama** al repositorio remoto.
+7. Por último, **realizar un Pull Request en GitHub** de su `rama personal` de *su repositorio personal (la copia bifurcada)* hacia la rama `master` de *este repositorio*.
+
