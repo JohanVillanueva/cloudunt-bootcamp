@@ -1,4 +1,4 @@
-# Frontend Challenge #1
+# 🚀 Frontend Challenge #1 
 
 Dado el archivo `index.html` se requiere:
 
@@ -9,4 +9,6 @@ Dado el archivo `index.html` se requiere:
   - Una manera creativa de reorganizar y mostrar la información
   - No debe agregar estilos y scripts de ningún tipo
   - *BONUS:* Agregar más información de la existente con respecto a HTML
-
+  
+Una vez terminado el trabajo, sigue esta guía para subir tu trabajo a este repositorio.
+### [¿Cómo subir mi trabajo?](https://github.com/JohanVillanueva/cloudunt-bootcamp#c%C3%B3mo-colaborar-en-este-proyecto)
