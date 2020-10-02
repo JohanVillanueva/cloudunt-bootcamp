@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>HTML Basic tags - CloudUNT Bootcamp</title>
+
+    <meta name="keywords" content="HTML" />
+    <meta name="description" content="Descripción de la página web" />
+    <meta name="author" content="Johan Villanueva ft. Alexander Briones" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- <meta http-equiv="refresh" content="3" /> -->
+
+  
+    <style>
+      body{
+
+      font-family: 'Libre Franklin', sans-serif;
+      }
+    </style>
+
+    <link rel="stylesheet" href="mis-estilos.css" />
+
+    <script src="mis-scripts.js"></script>
+    <script>
+      console.log("Sección de código javascript!");
+    </script>
+  </head>
+  <body>
+    <strong> HTML: Etiquetas principales </strong><br />
+    (etiqueta - Significado)
+    <br />
+
+    <br />
+    <details>
+      <summary>Semánticas</summary>
+
+      <br />
+      <header>header - Cabecera de página o de sección</header>
+      <footer>footer - Pie de página o sección</footer>
+      <main>main - Contenido principal de la página</main>
+      <section>
+        section - Representa una sección o parte de un esquema pero relacionadas
+        entre sí
+      </section>
+      <article>article - Composición completa de elementos o secciones</article>
+      <aside>
+        aside - Contenido indirectamente relacionado con el principal
+      </aside>
+
+      <br />
+      <div>div - Sección o parte de la página</div>
+      <span> span - Sección o parte de la página (no usa modelo de caja)</span>
+
+      <br /><br />
+      dialog - Cuadro de diálogo (no visible inicialmente)
+      <dialog>Esto un cuadro de dialogo</dialog>
+
+      <br /><br />
+      details - Contenido desplegable
+      <details>
+        <summary>summary - Encabezado de contenido desplegable</summary>
+
+        Contenido desplegable
+      </details>
+    </details>
+
+    <br />
+    <details>
+      <summary>Encabezados de texto</summary>
+
+      <h1>h1 - Título principal</h1>
+      <h2>h2 - Título de sección 2do nivel</h2>
+      <h3>h3 - Título de sección 3er nivel</h3>
+      <h4>h4 - Título de sección 4to nivel</h4>
+      <h5>h5 - Título de sección 5to nivel</h5>
+      <h6>h6 - Título de sección 6to nivel</h6>
+    </details>
+
+    <br />
+    <details>
+      <summary>Párrafos</summary>
+
+      <p>p - Párrafo simple</p>
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it to
+        make a type specimen book. It has survived not only five centuries, but
+        also the leap into electronic typesetting, remaining essentially
+        unchanged.
+      </p>
+    </details>
+
+    <br />
+    <details>
+      <summary>Formato de texto</summary>
+      <br />
+      <b>b - Negrita</b><br /><br />
+      <i>i - Cursiva</i><br /><br />
+      <u>u - Subrayado</u><br /><br />
+      <small>small - Texto tamaño pequeño</small><br /><br />
+      <strong> strong - Texto reforzado</strong><br /><br />
+      <em>em - Texto enfatizado</em><br /><br />
+      sub - Example<sub>subíndice</sub><br /><br />
+      sup - Example<sup>superíndice</sup><br /><br />
+    </details>
+
+    <br />
+    <details>
+      <summary>Textos especiales</summary>
+      <abbr title="Significado de abreviatura">abbr - Abreviatura </abbr>
+
+      <br /><br />
+      <address>
+        address - Direcciones o información de contacto<br />
+        Los Halcones 778, Lima<br />
+      </address>
+
+      <blockquote cite="https://mzl.la/3j4XIge" title="Texto informativo">
+        blockquote - Frases (agrega sangría)
+      </blockquote>
+
+      <q cite="https://mzl.la/3j4XIge" title="Texto informativo">
+        q - Frases con comillas (no agrega sangría)
+      </q>
+
+      <br /><br />
+      <code> code - Bloque de código: var myVar = 7; <br /> </code>
+    </details>
+
+    <br />
+    <details>
+      <summary>Links</summary>
+
+      <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"
+        >a - Hipervínculo</a
+      >
+
+      <br /><br />
+      nav - Grupo de Hipervínculos
+      <nav>
+        <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
+        <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
+        <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
+      </nav>
+    </details>
+
+    <br />
+    <details>
+      <summary>Listas</summary>
+
+      <br />
+      <li>li - Elemento de una lista</li>
+
+      <br />
+      ul - Listas desordenadas
+      <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ul>
+
+      <br />
+      ol - Listas ordenadas
+      <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ol>
+
+      <br />
+      dl - Listas de items con descripción
+      <dl>
+        <dt>Item 1</dt>
+        <dd>Descripción o detalle</dd>
+        <dt>Item 2</dt>
+        <dd>Descripción o detalle</dd>
+      </dl>
+    </details>
+
+    <br />
+    <details>
+      <summary>Tablas</summary>
+
+      table - Estructura de una tabla
+      <br />
+      <br />
+      <table border="1">
+        <caption>
+          caption - Título de la tabla
+        </caption>
+
+        <thead>
+          <tr>
+            <th colspan="4">thead - cabecera</th>
+          </tr>
+          <tr>
+            <th>th - titulo de columna</th>
+            <th>titulo de columna</th>
+            <th>titulo de columna</th>
+            <th>titulo de columna</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">tfoot - Pie de tabla</td>
+          </tr>
+        </tfoot>
+      </table>
+    </details>
+
+    <br />
+    <details>
+      <summary>Formularios</summary>
+      <br />
+
+      form - Contenedor de campos de entrada de información
+      <br /><br />
+
+      <form>
+        <textarea placeholder="textarea - Campo de texto multilínea"></textarea
+        ><br /><br />
+
+        <select>
+          <option value="1">select - Lista desplegable de opciones</option>
+          <option value="2">option - Item 1 de lista desplegable</option>
+          <option value="3" selected>
+            option - Item 2 de lista desplegable
+          </option>
+          <option value="4">option - Item 3 de lista desplegable</option>
+          <optgroup label="optgroup - Grupo de items">
+            <option value="a">option - Item a</option>
+            <option value="b">option - Item b</option>
+            <option value="c">option - Item c</option>
+          </optgroup></select
+        ><br /><br />
+
+        <fieldset>
+          <legend>Tipos de inputs</legend>
+
+          <label for="name"
+            ><input name="name" placeholder="input - Campo de texto" /> label -
+            Etiqueta de campo de texto </label
+          ><br />
+          <br />
+
+          <label
+            ><input
+              type="checkbox"
+              name="checkbox"
+              value="some value"
+            />checkbox - Caja de verificación</label
+          ><br /><br />
+
+          <label>
+            <input type="radio" value="1" name="myRadio" /> radio - Botón de
+            opción única 1
+          </label>
+          <label>
+            <input type="radio" value="2" name="myRadio" /> radio - Botón de
+            opción única 2 </label
+          ><br /><br />
+
+          <label>
+            <input type="number" value="0" />
+            number - Campos númericos </label
+          ><br /><br />
+
+          <label>
+            <input type="password" />
+            password - Contraseñas </label
+          ><br /><br />
+
+          <label>
+            <input type="range" min="0" max="2" />
+            range - Valor númerico entre un mínimo y máximo </label
+          ><br /><br />
+
+          <label>
+            <input type="email" required placeholder="Ingrese su email" />
+            email - Campo de texto con formato de correo </label
+          ><br /><br />
+
+          <label>
+            <input type="time" required />
+            time - Selección de hora </label
+          ><br /><br />
+
+          <label>
+            <input type="date" required />
+            date - Seleccionador de fecha </label
+          ><br /><br />
+
+          <label>
+            <input type="month" required />
+            month - Seleccionador de mes y año </label
+          ><br /><br />
+
+          <label>
+            <input type="color" required />
+            color - Seleccionador de color </label
+          ><br /><br />
+        </fieldset>
+
+        <br />
+        <button type="submit">button - Tipo Submit</button>
+        <button type="reset">button - Tipo Reset</button>
+        <button type="button">button - Tipo Button</button>
+      </form>
+    </details>
+
+    <br />
+    <details>
+      <summary>Multimedia</summary>
+
+      <br />
+      img - Imágenes <br />
+      <img
+        height="100"
+        src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+        alt="Una imagen de perritos"
+      />
+
+      <br /><br />
+      figure & figcaption - Imágenes con etiqueta o descripción <br />
+      <figure>
+        <img
+          width="200"
+          src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+          alt="A random image"
+        />
+        <figcaption>Fig.1 - Cachorros</figcaption>
+      </figure>
+
+      <br /><br />
+      video - Reproductor de video en formatos: MP4, WebM y OGG.<br />
+      <video width="320" height="240" controls>
+        <source
+          src="https://www.w3schools.com/tags/movie.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://www.w3schools.com/tags/movie.ogg"
+          type="video/ogg"
+        />
+        Texto informativo para navegadores que no soporten esta etiqueta
+      </video>
+
+      <br /><br />
+      audio - Reproductor de sonido en formatos: MP3, WebM y OGG. <br />
+      <audio controls="no">
+        <source
+          src="https://www.w3schools.com/tags/horse.ogg"
+          type="audio/ogg"
+        />
+        <source
+          src="https://www.w3schools.com/tags/horse.mp3"
+          type="audio/mpeg"
+        />
+        Texto informativo para navegadores que no soporten esta etiqueta
+      </audio>
+    </details>
+
+    
+    <br />
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Hola soy Alex! y este es mi aporte 🌗</p>
+    <br />
+    <details>
+      <summary>Newspaper</summary>
+        <header>
+          <h1>Headlines</h1>
+          <p>
+            <a href="#">Lorem ipsum dolor </a> 
+            sit amet consectetur, adipisicing elit. Distinctio modi inventore, labore obcaecati perferendis eius dolore facilis mollitia aspernatur totam?</p>
+        </header>
+
+        <article>
+          <figure>
+            <a href="https://unsplash.com/photos/dF6XznV09oQ" >
+              <img 
+                src="https://images.unsplash.com/photo-1601511086638-a6d6946ed7fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
+                alt="imagen de prueba">
+            </a>
+          </figure>
+          <div>
+            <h2>Texto del articulo</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sapiente quam nostrum magni dolorum facere molestiae dignissimos, est odit id porro quaerat qui, 
+              <a href="#">doloremque officia!</a>
+              Quia suscipit deserunt 
+              <strong>
+               aspernatur rerum. 
+              </strong>              
+            </p>
+          </div>
+          <footer>
+            <span>
+              <a href="#">🙀 See the whole news</a>
+            </span>
+          </footer>
+        </article>
+    </details>
+    <br>
+    <details>
+      <summary>Cursos online</summary>
+      <div>
+        <h1>Cursos online</h1>
+        <p>
+          Descubre un amplio contenido de formación gratuita para impulsar tu negocio o carrera profesional. Aprende todo lo que necesites seleccionando módulos concretos o, si lo prefieres, haz un curso completo.
+        </p>
+      </div>
+
+      <div>
+        <picture>
+          <sourcemedia="(min-width: 1441px)"
+          srcset="https://lh3.googleusercontent.com/hvp1qblS8Lunc8CHqIQhXc0ql8nWhvnDPIe0dezB6kPgsYdWf78gPwSLyZHmtnWTV3vMqB7kLkNSCf8CImfi2YluVU5fq4j3iO2cuQ=s299">
+          <img
+            src="https://lh3.googleusercontent.com/hvp1qblS8Lunc8CHqIQhXc0ql8nWhvnDPIe0dezB6kPgsYdWf78gPwSLyZHmtnWTV3vMqB7kLkNSCf8CImfi2YluVU5fq4j3iO2cuQ=s500" 
+            alt="Creado por Google"
+          >
+        </picture>
+        </div>
+          <div>
+            <h2>
+              Moderniza y lleva tu sitio web al siguiente nivel 🚀, implementando lo mejor de las apps modernas.
+            </h2>
+            <li>
+              <ul>
+                <span>
+                  📄 Módulos: 1 
+                </span>
+              </ul>
+            
+              <ul>
+                <span>
+                🕒 Duración: +9 horas (Ver temario) 
+                </span>
+              </ul>
+            </li>
+            <div>
+              <div>
+                <h3>Temario del curso</h3>
+                <p>¡Clase gratis!</p>
+              </div>
+              <ul>
+                <li>1.1 Bienvenida al curso.</li><time>02:12</time>
+                <li>1.2. Instalaciones necesarias.</li>
+                <li>1.3. Fundamentos de las aplicaciones web progresivas.</li>
+                <li>1.4. Creando el proyecto aplicando el concepto Mobile First con Material Design Lite. Parte 1.</li>
+                <li>1.5.Creando el proyecto aplicando el concepto Mobile First con Material Design Lite. Parte 2.</li>
+                <li>1.6. Conectando con github y deployando con github pages.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </details>
+
+
+
+
+  </body>
+</html>
