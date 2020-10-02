@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Challenge-HTML Basic tags - CloudUNT Bootcamp</title>
+
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="Descripción de la página web" />
+    <meta name="author" content="Johan Villanueva" />
+
+    <!-- <meta http-equiv="refresh" content="3" /> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="mis-estilos.css" />
+
+    <script src="mis-scripts.js"></script>
+
+    <style>
+        /* Sección de estilos! */
+        
+        body {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+
+    <script>
+        console.log("Sección de código javascript!");
+    </script>
+</head>
+
+<body>
+    <header>
+        <fieldset>
+            <legend>
+                <strong> Curso HTML</strong>
+            </legend>
+            Uso y significado de etiquetas
+        </fieldset>
+    </header>
+    <br>
+    <main>
+        <fieldset>
+            <legend><strong>Etiquetas meta y de sección</strong> </legend>
+            <header>header - Contenido de cabecera como menú de navegación, banner, etc</header>
+            <main> main- Va el contenido principal de la página</main>
+            <footer>footer - Pie de página o sección</footer>
+            <hr>
+            <article> article- Composición completa de elementos o secciones</article>
+            <section>section - Representa una sección o parte de un esquema pero relacionadas entre sí</section>
+            <aside>aside - Contenido indirectamente relacionado con el principal</aside>
+            <hr>
+            <div>div- secciona una parte de la pagina</div>
+            <span>span - Sección o parte de la página (no usa modelo de caja)</span>
+            <hr> dialog - Cuadro de diálogo (no visible inicialmente)
+            <dialog>Esto un cuadro de dialogo</dialog>
+            <details>
+                <summary>summary - Encabezado de contenido desplegable-</summary>
+                Contenido a colocar
+            </details>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Encabeados de texto</strong></legend>
+            <h1>h1 - Título principal</h1>
+            <h2>h2 - Título de sección 2do nivel</h2>
+            <h3>h3 - Título de sección 3er nivel</h3>
+            <h4>h4 - Título de sección 4to nivel</h4>
+            <h5>h5 - Título de sección 5to nivel</h5>
+            <h6>h6 - Título de sección 6to nivel</h6>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Contenido de texto</strong></legend>
+            <details>
+                <summary>Texto</summary>
+                <p>p - Párrafo simple</p>
+                <pre>pre- representa texto         
+                  preformateado que se presentará        
+                          exactamente como está escrito en el archivo HTML
+                </pre>
+            </details>
+            <details>
+                <summary>Listas</summary><br>
+                <li>li- Elemento de una lista</li>
+                <hr>
+                <p>ol- Lista ordenada</p>
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ol>
+                <hr>
+                <p>ol- Lista desordenada</p>
+                <ul>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento 3</li>
+                </ul>
+                <hr> dl- Listas de items con descripción <br> dt- Titulo del item en cuestion <br> dd- Descripcion del item en cuestion
+                <dl>
+                    <dt>Titulo de item 1</dt>
+                    <dd>Descripcion de item 1</dd>
+                    <dt>Titulo de item 2</dt>
+                    <dd>Descripcion del item 2</dd>
+                </dl>
+            </details>
+            <details>
+                <summary>Textos especiales</summary><br>
+                <abbr title="Significado de abreviatura">abbr - Abreviatura </abbr>
+                <br>
+                <address>
+                address - Direcciones o información de contacto<br />
+                Los Halcones 778, Lima<br />
+              </address><br> Según el autor "...":
+                <blockquote cite="https://mzl.la/3j4XIge" title="Texto informativo">
+                    blockquote - Frases (agrega sangría)
+                </blockquote>
+
+                <q cite="https://mzl.la/3j4XIge" title="Texto informativo">
+                  q - Frases con comillas (no agrega sangría)
+                </q>
+                <br>
+                <code> code - Bloque de código: var myVar = 7; <br /> </code><br>
+            </details>
+            <details>
+                <summary>Formato de textos</summary>
+                <br>
+                <b>b - Negrita</b><br />
+                <i>i - Cursiva</i><br />
+                <u>u - Subrayado</u><br />
+                <small>small - Texto tamaño pequeño</small><br />
+                <strong> strong - Texto reforzado</strong><br />
+                <em>em - Texto enfatizado</em><br /><br /> sub - Example<sub>subíndice</sub><br /><br /> sup - Example<sup>superíndice</sup><br /><br />
+            </details>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>LINKS</strong></legend>
+            <a href="https://www.w3schools.com/tags/tag_a.asp">a- Hipervínculo</a>
+            <p>nav-Grupo de Hipervínculos</p>
+            <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
+            <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
+            <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Tablas</strong></legend>
+            <p>table - Estructura de una tabla</p>
+            <table border="1">
+                <caption>
+                    caption - Título de la tabla
+                </caption>
+
+                <thead>
+                    <tr>
+                        <th colspan="4">thead - cabecera</th>
+                    </tr>
+                    <tr>
+                        <th>th - titulo de columna</th>
+                        <th>titulo de columna</th>
+                        <th>titulo de columna</th>
+                        <th>titulo de columna</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>td - Celda 1</td>
+                        <td>Celda 2</td>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                    <tr>
+                        <td>td - Celda 1</td>
+                        <td>Celda 2</td>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                    <tr>
+                        <td>td - Celda 1</td>
+                        <td>Celda 2</td>
+                        <td>Celda 3</td>
+                        <td>Celda 4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">tfoot - Pie de tabla</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Formularios</strong></legend>
+            <br> form-Contenedor de campos de entrada de información
+            <hr>
+            <form action="">
+                <textarea name="" id="" cols="30" rows="3" placeholder="textarea - Campo de texto multilínea"></textarea><br>
+                <select name="" id="">
+                  <option value="1">select- Lista desplegable de opciones</option>
+                  <option value="2">option - Item 1 de lista desplegable</option>
+                  <option value="3" selected> option - Item 2 de lista desplegable </option>
+                  <option value="4">option - Item 3 de lista desplegable</option>
+                    <optgroup label="optgroup - Grupo de items">
+                      <option value="a">option - Item a</option>
+                      <option value="b">option - Item b</option>
+                      <option value="c">option - Item c</option>
+                    </optgroup>
+                </select><br><br>
+                <hr> Tipos de inputs
+                <hr>
+                <label for="">
+                  <input type="name" placeholder="input- Campo de texto">
+                  label- Etiqueta de campo de texto
+                </label>
+                <br><br>
+                <label for="">
+                  <input type="checkbox" name="checkbox" value="something">checkbox- Caja de verificación
+                </label>
+                <br>
+                <label for="">
+                  <input type="radio" value="1" name="myRadio">radio-Botón de opción única 1
+                </label>
+                <br>
+                <label for="">
+                  <input type="radio" value="2" name="myRadio">radio-Botón de opción única 1
+                </label>
+                <br><br>
+                <label for="">
+                  <input type="number"> number - Campos númericos
+                </label><br>
+                <label for="">
+                  <input type="password" name="" id=""> password - Contraseñas
+                </label><br>
+                <label for="">
+                  <input type="range" min="0" max="7"> range - Valor númerico entre un mínimo y máximo
+                </label><br>
+                <label for="">
+                  <input type="email" name="" id="" required> email - Campo de texto con formato de correo
+                </label><br><br>
+                <label for="">
+                  <input type="time" name="" id="" required> time - Selección de hora
+                </label><br>
+                <label for="">
+                  <input type="date" name="" id="" required> date - Seleccionador de fecha
+                </label><br>
+                <label for="">
+                  <input type="month" name="" id="" required>month - Seleccionador de mes y año
+                </label><br><br>
+                <input type="color" required> color - Seleccionador de color
+                <br><br>
+                <button type="submit">button - Tipo Submit</button>
+                <button type="reset">button - Tipo Reset</button>
+                <button type="button">button - Tipo Button</button>
+                <br><br>
+                <address>required- especifica que se debe completar un campo de entrada antes de enviar el formulario</address>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Imagen y Multimedia</strong></legend>
+            img - Imágenes
+            <br>
+            <img height="100" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png" alt="Una imagen de perritos" />
+            <br><br> figure & figcaption - Imágenes con etiqueta o descripción
+            <br>
+            <figure>
+                <img width="200" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png" alt="A random image" />
+                <figcaption>Fig.1 - Cachorros</figcaption>
+            </figure>
+            <br><br> video - Reproductor de video en formatos: MP4, WebM y OGG.
+            <br><br>
+            <video width="320" height="240" controls>
+              <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+              <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+                Texto informativo para navegadores que no soporten esta etiqueta
+            </video>
+            <br><br> audio - Reproductor de sonido en formatos: MP3, WebM y OGG
+            <br><br>
+            <audio controls>
+              <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+              <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+            </audio>
+            <br> Texto informativo para navegadores que no soporten esta etiqueta
+        </fieldset>
+</body>
+
+</html>
