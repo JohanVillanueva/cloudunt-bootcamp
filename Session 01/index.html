@@ -1,106 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>HTML Basic tags - CloudUNT Bootcamp</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta name="keywords" content="HTML, CSS" />
-    <meta name="description" content="Descripción de la página web" />
-    <meta name="author" content="Johan Villanueva" />
+  <title>HTML Basic tags - CloudUNT Bootcamp</title>
 
-    <!-- <meta http-equiv="refresh" content="3" /> -->
+  <meta name="keywords" content="HTML, CSS" />
+  <meta name="description" content="Descripción de la página web" />
+  <meta name="author" content="Johan Villanueva" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
+  <!-- <meta http-equiv="refresh" content="3" /> -->
 
-    <link rel="stylesheet" href="mis-estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
 
-    <script src="mis-scripts.js"></script>
+  <link rel="stylesheet" href="mis-estilos.css" />
 
-    <style>
-      /* Sección de estilos! */
-      body {
-        font-family: "Lato", sans-serif;
-      }
-    </style>
+  <script src="mis-scripts.js"></script>
 
-    <script>
-      console.log("Sección de código javascript!");
-    </script>
-  </head>
-  <body>
-    <strong> HTML: Etiquetas principales </strong><br />
-    (etiqueta - Significado)
-    <br />
+  <style>
+    /* Sección de estilos! */
+    body {
+      font-family: "Lato", sans-serif;
+    }
+  </style>
 
-    <br />
-    <details>
-      <summary>Semánticas</summary>
+  <script>
+    /*seccion de scripts*/
+    /* console.log("Sección de código javascript!"); */
+  </script>
+</head>
 
-      <br />
-      <header>header - Cabecera de página o de sección</header>
-      <footer>footer - Pie de página o sección</footer>
-      <main>main - Contenido principal de la página</main>
-      <section>
-        section - Representa una sección o parte de un esquema pero relacionadas
-        entre sí
-      </section>
-      <article>article - Composición completa de elementos o secciones</article>
-      <aside>
-        aside - Contenido indirectamente relacionado con el principal
-      </aside>
+<body>
+  <header>
+    <strong> HTML </strong>
+    <nav>
+      <a href="#semantica">Semantica</a>&nbsp;
+      <a href="#encabezadotext">Encabezado de Texto</a>&nbsp;
+      <a href="#parrafos">Párrafos</a>&nbsp;
+      <a href="#formatotext">Formato de Texto</a>&nbsp;
+      <a href="#textespeciales">Textos Especiales</a>&nbsp;
+      <a href="#links">Links</a>&nbsp;
+      <a href="#listas">Listas</a>&nbsp;
+      <a href="#tablas">Tablas</a>&nbsp;
+      <a href="#formulario">Formularios</a>&nbsp;
+      <a href="#multimedia">Multimedia</a>&nbsp;
+    </nav>
+  </header>
+  <main>
+    <h1> HTML: Etiquetas principales (etiqueta - Significado)</h1>
+         
+    <section>
+      <h2 id="semantica">Semánticas</h2>
 
-      <br />
-      <div>div - Sección o parte de la página</div>
-      <span> span - Sección o parte de la página (no usa modelo de caja)</span>
-
-      <br /><br />
-      dialog - Cuadro de diálogo (no visible inicialmente)
-      <dialog>Esto un cuadro de dialogo</dialog>
-
-      <br /><br />
-      details - Contenido desplegable
+      <p><code>< header></code> - Cabecera de página o de sección </p>
+      <p><code>< footer></code> - Pie de página o sección </p>
+      <p><code>< main></code> - Contenido principal de la página </p>
+      <p><code>< section></code> - Representa una sección o parte de un esquema pero relacionadas entre sí </p>
+      <p><code>< article></code> - Composición completa de elementos o secciones </p>
+      <p><code>< aside></code> - Contenido indirectamente relacionado con el principal </p>
+      <p><code>< div></code> - Sección o parte de la página </p>
+      <p><code>< span></code> - Sección o parte de la página (no usa modelo de caja) </p>
+      <p><code>< dialog></code> - Cuadro de diálogo (no visible inicialmente) </p>
+      <p><code>< details></code> - Contenido desplegable </p>
       <details>
         <summary>summary - Encabezado de contenido desplegable</summary>
-
         Contenido desplegable
       </details>
-    </details>
 
-    <br />
-    <details>
-      <summary>Encabezados de texto</summary>
 
+    </section>
+    <hr>
+    <section>
+      <h2 id="encabezadotext">Encabezados de texto</h2>
       <h1>h1 - Título principal</h1>
       <h2>h2 - Título de sección 2do nivel</h2>
       <h3>h3 - Título de sección 3er nivel</h3>
       <h4>h4 - Título de sección 4to nivel</h4>
       <h5>h5 - Título de sección 5to nivel</h5>
       <h6>h6 - Título de sección 6to nivel</h6>
-    </details>
-
-    <br />
-    <details>
-      <summary>Párrafos</summary>
-
+    </section>
+    <hr>
+    <section>
+      <h2 id="parrafos">Párrafos</h2>
       <p>p - Párrafo simple</p>
       <p>
-        Lorem Ipsum has been the industry's standard dummy text ever since the
-        1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book. It has survived not only five centuries, but
-        also the leap into electronic typesetting, remaining essentially
-        unchanged.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+        the leap into electronic typesetting, remaining essentially unchanged.
       </p>
-    </details>
-
-    <br />
-    <details>
-      <summary>Formato de texto</summary>
-      <br />
+    </section>
+    <hr>
+    <section>
+      <h2 id="formatotext">Formato de texto</h2>
       <b>b - Negrita</b><br /><br />
       <i>i - Cursiva</i><br /><br />
       <u>u - Subrayado</u><br /><br />
@@ -109,11 +102,10 @@
       <em>em - Texto enfatizado</em><br /><br />
       sub - Example<sub>subíndice</sub><br /><br />
       sup - Example<sup>superíndice</sup><br /><br />
-    </details>
-
-    <br />
-    <details>
-      <summary>Textos especiales</summary>
+    </section>
+    <hr>
+    <section>
+      <h2 id="textespeciales">Textos especiales</h2>
       <abbr title="Significado de abreviatura">abbr - Abreviatura </abbr>
 
       <br /><br />
@@ -129,68 +121,57 @@
       <q cite="https://mzl.la/3j4XIge" title="Texto informativo">
         q - Frases con comillas (no agrega sangría)
       </q>
-
       <br /><br />
-      <code> code - Bloque de código: var myVar = 7; <br /> </code>
-    </details>
+      <code> code - Bloque de código: var myVar = 7; </code>
+    </section>
+    <hr>
+    <section>
 
-    <br />
-    <details>
-      <summary>Links</summary>
+      <h2 id="links">Links</h2>
 
-      <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"
-        >a - Hipervínculo</a
-      >
+      <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">a - Hipervínculo</a>
 
-      <br /><br />
-      nav - Grupo de Hipervínculos
+     <p>nav - Grupo de Hipervínculos</p> 
       <nav>
         <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
         <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
         <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
       </nav>
-    </details>
+    </section>
+    <hr>
+    <section>
+      <h2 id="listas">Listas</h2>
 
-    <br />
-    <details>
-      <summary>Listas</summary>
-
-      <br />
       <li>li - Elemento de una lista</li>
 
-      <br />
-      ul - Listas desordenadas
+      <p>ul - Listas desordenadas</p> 
       <ul>
         <li>Item</li>
         <li>Item</li>
         <li>Item</li>
       </ul>
 
-      <br />
-      ol - Listas ordenadas
+     <p>ol - Listas ordenadas</p> 
       <ol>
         <li>Item</li>
         <li>Item</li>
         <li>Item</li>
       </ol>
 
-      <br />
-      dl - Listas de items con descripción
+      <p>dl - Listas de items con descripción</p> 
       <dl>
         <dt>Item 1</dt>
         <dd>Descripción o detalle</dd>
         <dt>Item 2</dt>
         <dd>Descripción o detalle</dd>
       </dl>
-    </details>
+    </section>
+    <hr>
+    <section>
+      <h2 id="tablas">Tablas</h2>
 
-    <br />
-    <details>
-      <summary>Tablas</summary>
+      <p>table - Estructura de una tabla</p>
 
-      table - Estructura de una tabla
-      <br />
-      <br />
       <table border="1">
         <caption>
           caption - Título de la tabla
@@ -233,19 +214,15 @@
           </tr>
         </tfoot>
       </table>
-    </details>
+    </section>
+    <hr>
+    <section>
+      <h2 id="formulario">Formularios</h2>
 
-    <br />
-    <details>
-      <summary>Formularios</summary>
-      <br />
-
-      form - Contenedor de campos de entrada de información
-      <br /><br />
+      <p>form - Contenedor de campos de entrada de información</p>
 
       <form>
-        <textarea placeholder="textarea - Campo de texto multilínea"></textarea
-        ><br /><br />
+        <textarea placeholder="textarea - Campo de texto multilínea"></textarea><br /><br />
 
         <select>
           <option value="1">select - Lista desplegable de opciones</option>
@@ -258,74 +235,48 @@
             <option value="a">option - Item a</option>
             <option value="b">option - Item b</option>
             <option value="c">option - Item c</option>
-          </optgroup></select
-        ><br /><br />
+          </optgroup>
+        </select><br /><br />
 
         <fieldset>
           <legend>Tipos de inputs</legend>
 
-          <label for="name"
-            ><input name="name" placeholder="input - Campo de texto" /> label -
-            Etiqueta de campo de texto </label
-          ><br />
+          <input name="name" placeholder="input - Campo de texto" />
+          <label for="name"> label -Etiqueta de campo de texto </label><br />
           <br />
 
-          <label
-            ><input
-              type="checkbox"
-              name="checkbox"
-              value="some value"
-            />checkbox - Caja de verificación</label
-          ><br /><br />
+          <input type="checkbox" name="checkbox" value="some value" />
+          <label>checkbox - Caja de verificación</label><br /><br />
 
-          <label>
-            <input type="radio" value="1" name="myRadio" /> radio - Botón de
-            opción única 1
-          </label>
-          <label>
-            <input type="radio" value="2" name="myRadio" /> radio - Botón de
-            opción única 2 </label
-          ><br /><br />
+          <input type="radio" value="1" name="myRadio" />
+          <label>radio - Botón de opción única 1</label>
+          <input type="radio" value="2" name="myRadio" />
+          <label>radio - Botón de opción única 2 </label><br /><br />
 
-          <label>
-            <input type="number" value="0" />
-            number - Campos númericos </label
-          ><br /><br />
+          <input type="number" value="0" />
+          <label>number - Campos númericos </label><br /><br />
 
-          <label>
-            <input type="password" />
-            password - Contraseñas </label
-          ><br /><br />
+          <input type="password" />
+          <label>password - Contraseñas </label><br /><br />
 
-          <label>
-            <input type="range" min="0" max="2" />
-            range - Valor númerico entre un mínimo y máximo </label
-          ><br /><br />
+          <input type="range" min="0" max="2" />
+          <label>range - Valor númerico entre un mínimo y máximo </label><br /><br />
 
-          <label>
-            <input type="email" required placeholder="Ingrese su email" />
-            email - Campo de texto con formato de correo </label
-          ><br /><br />
+          <input type="email" required placeholder="Ingrese su email" />
+          <label>email - Campo de texto con formato de correo </label><br /><br />
 
-          <label>
-            <input type="time" required />
-            time - Selección de hora </label
-          ><br /><br />
+          <input type="time" required />
+          <label>time - Selección de hora </label><br /><br />
 
-          <label>
-            <input type="date" required />
-            date - Seleccionador de fecha </label
-          ><br /><br />
+          <input type="date" required />
+          <label>date - Seleccionador de fecha </label><br /><br />
 
-          <label>
-            <input type="month" required />
-            month - Seleccionador de mes y año </label
-          ><br /><br />
+          <input type="month" required />
+          <label>month - Seleccionador de mes y año </label><br /><br />
 
-          <label>
-            <input type="color" required />
-            color - Seleccionador de color </label
-          ><br /><br />
+          <input type="color" required />
+          <label>color - Seleccionador de color </label>
+          <br /><br />
         </fieldset>
 
         <br />
@@ -333,58 +284,41 @@
         <button type="reset">button - Tipo Reset</button>
         <button type="button">button - Tipo Button</button>
       </form>
-    </details>
+    </section>
+    <hr>
+    <section>
+      <h2 id="multimedia">Multimedia</h2>
 
-    <br />
-    <details>
-      <summary>Multimedia</summary>
+       <p> img - Imágenes</p>
+        <img height="100" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+          alt="Una imagen de perritos" />
+        <p>figure & figcaption - Imágenes con etiqueta o descripción</p>  
+        <figure>
+          <img width="200" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+            alt="A random image" />
+          <figcaption>Fig.1 - Cachorros</figcaption>
+        </figure>
 
-      <br />
-      img - Imágenes <br />
-      <img
-        height="100"
-        src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
-        alt="Una imagen de perritos"
-      />
+       <p> video - Reproductor de video en formatos: MP4, WebM y OGG.</p><br />
+        <video width="320" height="240" controls>
+          <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" />
+          <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg" />
+          Texto informativo para navegadores que no soporten esta etiqueta
+        </video>
 
-      <br /><br />
-      figure & figcaption - Imágenes con etiqueta o descripción <br />
-      <figure>
-        <img
-          width="200"
-          src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
-          alt="A random image"
-        />
-        <figcaption>Fig.1 - Cachorros</figcaption>
-      </figure>
-
-      <br /><br />
-      video - Reproductor de video en formatos: MP4, WebM y OGG.<br />
-      <video width="320" height="240" controls>
-        <source
-          src="https://www.w3schools.com/tags/movie.mp4"
-          type="video/mp4"
-        />
-        <source
-          src="https://www.w3schools.com/tags/movie.ogg"
-          type="video/ogg"
-        />
-        Texto informativo para navegadores que no soporten esta etiqueta
-      </video>
-
-      <br /><br />
-      audio - Reproductor de sonido en formatos: MP3, WebM y OGG. <br />
-      <audio controls>
-        <source
-          src="https://www.w3schools.com/tags/horse.ogg"
-          type="audio/ogg"
-        />
-        <source
-          src="https://www.w3schools.com/tags/horse.mp3"
-          type="audio/mpeg"
-        />
-        Texto informativo para navegadores que no soporten esta etiqueta
-      </audio>
-    </details>
-  </body>
+     
+        <p>audio - Reproductor de sonido en formatos: MP3, WebM y OGG.</p> 
+        <audio controls>
+          <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+          <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg" />
+          Texto informativo para navegadores que no soporten esta etiqueta
+        </audio>
+      </details>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <p>Aprende más en : <a href="https://www.w3schools.com/" target="_blanck">W3SCHOOLS</a></p>
+  </footer>
+</body>
 </html>
