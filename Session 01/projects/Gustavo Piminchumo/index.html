@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>HTML Basic tags - CloudUNT Bootcamp</title>
+
+  <meta name="keywords" content="HTML, CSS" />
+  <meta name="description" content="etiquetas de HMTL" />
+  <meta name="author" content="Gustavo Piminchumo" />
+
+  <!-- <meta http-equiv="refresh" content="3" /> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" /> -->
+  <!--   <link rel="stylesheet" href="mis-estilos.css" /> -->
+  <!--   <script src="mis-scripts.js"></script> -->
+  <style>
+    /* Sección de estilos! */
+  </style>
+
+  <script>
+    /*seccion de scripts*/
+  </script>
+</head>
+<body>
+  <header>
+    <strong> HTML </strong>
+    <nav>
+      <a href="#semantica">Semantica</a>&nbsp;
+      <a href="#encabezadotext">Encabezado de Texto</a>&nbsp;
+      <a href="#parrafos">Párrafos</a>&nbsp;
+      <a href="#formatotext">Formato de Texto</a>&nbsp;
+      <a href="#textespeciales">Textos Especiales</a>&nbsp;
+      <a href="#links">Links</a>&nbsp;
+      <a href="#listas">Listas</a>&nbsp;
+      <a href="#tablas">Tablas</a>&nbsp;
+      <a href="#formulario">Formularios</a>&nbsp;
+      <a href="#multimedia">Multimedia</a>&nbsp;
+    </nav>
+  </header>
+  <main>
+    <h1> HTML: Etiquetas principales (etiqueta - Significado)</h1>
+
+    <section>
+      <h2 id="semantica">Semánticas</h2>
+
+      <p><code>< header></code> - Cabecera de página o de sección </p>
+      <p><code>< footer></code> - Pie de página o sección </p>
+      <p><code>< main></code> - Contenido principal de la página </p>
+      <p><code>< section></code> - Representa una sección o parte de un esquema pero relacionadas entre sí </p>
+      <p><code>< article></code> - Composición completa de elementos o secciones </p>
+      <p><code>< aside></code> - Contenido indirectamente relacionado con el principal </p>
+      <p><code>< div></code> - Sección o parte de la página </p>
+      <p><code>< span></code> - Sección o parte de la página (no usa modelo de caja) </p>
+      <p><code>< dialog></code> - Cuadro de diálogo (no visible inicialmente) </p>
+      <p><code>< details></code> - Contenido desplegable </p>
+      <details>
+        <summary>summary - Encabezado de contenido desplegable</summary>
+        Contenido desplegable
+      </details>
+
+
+    </section>
+    <hr>
+    <section>
+      <h2 id="encabezadotext">Encabezados de texto</h2>
+      <h1>h1 - Título principal</h1>
+      <h2>h2 - Título de sección 2do nivel</h2>
+      <h3>h3 - Título de sección 3er nivel</h3>
+      <h4>h4 - Título de sección 4to nivel</h4>
+      <h5>h5 - Título de sección 5to nivel</h5>
+      <h6>h6 - Título de sección 6to nivel</h6>
+    </section>
+    <hr>
+    <section>
+      <h2 id="parrafos">Párrafos</h2>
+      <p>p - Párrafo simple</p>
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+        the leap into electronic typesetting, remaining essentially unchanged.
+      </p>
+    </section>
+    <hr>
+    <section>
+      <h2 id="formatotext">Formato de texto</h2>
+      <p> <b>b - Negrita</b> </p>
+      <p> <i>i - Cursiva</i> </p>
+      <p><u>u - Subrayado</u></p>
+      <p><small>small - Texto tamaño pequeño</small> </p> 
+      <p> <strong> strong - Texto reforzado</strong> </p>
+      <p> <em>em - Texto enfatizado</em> </p>
+      <p>mark - <mark> Texto resaltado</mark> </p>
+      <p> sub - Example<sub>subíndice</sub></p>
+      <p> sup - Example<sup>superíndice</sup></p>
+    </section>
+    <hr>
+    <section>
+      <h2 id="textespeciales">Textos especiales</h2>
+      <abbr title="Significado de abreviatura">abbr - Abreviatura </abbr>
+
+      <br /><br />
+      <address>
+        address - Direcciones o información de contacto<br />
+        Los Halcones 778, Lima<br />
+      </address>
+
+      <blockquote cite="https://mzl.la/3j4XIge" title="Texto informativo">
+        blockquote - Frases (agrega sangría)
+      </blockquote>
+
+      <q cite="https://mzl.la/3j4XIge" title="Texto informativo">
+        q - Frases con comillas (no agrega sangría)
+      </q>
+      <br /><br />
+      <code> code - Bloque de código: var myVar = 7; </code>
+    </section>
+    <hr>
+    <section>
+
+      <h2 id="links">Links</h2>
+
+      <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">a - Hipervínculo</a>
+
+      <p>nav - Grupo de Hipervínculos</p>
+      <nav>
+        <a href="https://www.w3schools.com/html/" target="_blank">HTML</a>
+        <a href="https://www.w3schools.com/css/" target="_blank">CSS</a>
+        <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
+      </nav>
+    </section>
+    <hr>
+    <section>
+      <h2 id="listas">Listas</h2>
+
+      <li>li - Elemento de una lista</li>
+
+      <p>ul - Listas desordenadas</p>
+      <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ul>
+
+      <p>ol - Listas ordenadas</p>
+      <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+      </ol>
+
+      <p>dl - Listas de items con descripción</p>
+      <dl>
+        <dt>Item 1</dt>
+        <dd>Descripción o detalle</dd>
+        <dt>Item 2</dt>
+        <dd>Descripción o detalle</dd>
+      </dl>
+    </section>
+    <hr>
+    <section>
+      <h2 id="tablas">Tablas</h2>
+
+      <p>table - Estructura de una tabla</p>
+
+      <table border="1">
+        <caption>
+          caption - Título de la tabla
+        </caption>
+
+        <thead>
+          <tr>
+            <th colspan="4">thead - cabecera</th>
+          </tr>
+          <tr>
+            <th>th - titulo de columna</th>
+            <th>titulo de columna</th>
+            <th>titulo de columna</th>
+            <th>titulo de columna</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+          <tr>
+            <td>td - Celda 1</td>
+            <td>Celda 2</td>
+            <td>Celda 3</td>
+            <td>Celda 3</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">tfoot - Pie de tabla</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <hr>
+    <section>
+      <h2 id="formulario">Formularios</h2>
+
+      <p>form - Contenedor de campos de entrada de información</p>
+
+      <form>
+        <textarea placeholder="textarea - Campo de texto multilínea"></textarea><br /><br />
+
+        <select>
+          <option value="1">select - Lista desplegable de opciones</option>
+          <option value="2">option - Item 1 de lista desplegable</option>
+          <option value="3" selected>
+            option - Item 2 de lista desplegable
+          </option>
+          <option value="4">option - Item 3 de lista desplegable</option>
+          <optgroup label="optgroup - Grupo de items">
+            <option value="a">option - Item a</option>
+            <option value="b">option - Item b</option>
+            <option value="c">option - Item c</option>
+          </optgroup>
+        </select><br /><br />
+
+        <fieldset>
+          <legend>Tipos de inputs</legend>
+
+          <input name="name" placeholder="input - Campo de texto" />
+          <label for="name"> label -Etiqueta de campo de texto </label><br />
+          <br />
+
+          <input type="checkbox" name="checkbox" value="some value" />
+          <label>checkbox - Caja de verificación</label><br /><br />
+
+          <input type="radio" value="1" name="myRadio" />
+          <label>radio - Botón de opción única 1</label>
+          <input type="radio" value="2" name="myRadio" />
+          <label>radio - Botón de opción única 2 </label><br /><br />
+
+          <input type="number" value="0" />
+          <label>number - Campos númericos </label><br /><br />
+
+          <input type="password" />
+          <label>password - Contraseñas </label><br /><br />
+
+          <input type="range" min="0" max="2" />
+          <label>range - Valor númerico entre un mínimo y máximo </label><br /><br />
+
+          <input type="email" required placeholder="Ingrese su email" />
+          <label>email - Campo de texto con formato de correo </label><br /><br />
+
+          <input type="time" required />
+          <label>time - Selección de hora </label><br /><br />
+
+          <input type="date" required />
+          <label>date - Seleccionador de fecha </label><br /><br />
+
+          <input type="month" required />
+          <label>month - Seleccionador de mes y año </label><br /><br />
+
+          <input type="color" required />
+          <label>color - Seleccionador de color </label>
+          <br /><br />
+        </fieldset>
+
+        <br />
+        <button type="submit">button - Tipo Submit</button>
+        <button type="reset">button - Tipo Reset</button>
+        <button type="button">button - Tipo Button</button>
+      </form>
+    </section>
+    <hr>
+    <section>
+      <h2 id="multimedia">Multimedia</h2>
+
+      <p> img - Imágenes</p>
+      <img height="100" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+        alt="Una imagen de perritos" />
+      <p>figure & figcaption - Imágenes con etiqueta o descripción</p>
+      <figure>
+        <img width="200" src="https://i.pinimg.com/originals/27/21/76/2721761c2f9dc3254a2d9c4febfa60f8.png"
+          alt="A random image" />
+        <figcaption>Fig.1 - Cachorros</figcaption>
+      </figure>
+
+      <p> video - Reproductor de video en formatos: MP4, WebM y OGG.</p><br />
+      <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4" />
+        <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg" />
+        Texto informativo para navegadores que no soporten esta etiqueta
+      </video>
+
+
+      <p>audio - Reproductor de sonido en formatos: MP3, WebM y OGG.</p>
+      <audio controls>
+        <source src="https://www.w3schools.com/tags/horse.ogg" type="audio/ogg" />
+        <source src="https://www.w3schools.com/tags/horse.mp3" type="audio/mpeg" />
+        Texto informativo para navegadores que no soporten esta etiqueta
+      </audio>
+      <p> iframe - Un marco en línea permite incrustar otro documento dentro del documento HTML actual.</p>
+      <iframe src="https://www.unitru.edu.pe/" title="Universisdad Nacional de Trujillo" ></iframe>
+    </section>
+  </main>
+  <hr>
+  <footer>
+    <p>Visita : <a href="https://www.w3schools.com/" target="_blanck">W3SCHOOLS</a></p>
+  </footer>
+
+</body>
+
+</html>
