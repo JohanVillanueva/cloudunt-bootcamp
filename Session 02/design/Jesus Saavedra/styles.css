@@ -1,0 +1,117 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+
+*{
+  font-family: "Karla", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+:root {
+--Cyan: #2ab2af;
+--BrightYellow: #c0df34;
+--LightGray: #e5eff5;
+--GrayishBlue: #98a6bd;
+}
+.container{
+  width: 45em;
+  margin: 10vh auto;
+  height: 80vh;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  /* border:1px solid red; */
+  border-radius: 5px;
+}
+.container-header {
+  width: 100%;
+  height: 45%;
+  padding: 2.5em 2.3em;
+  /* border:1px solid red; */
+  box-sizing: border-box;
+}
+.container-header h3 {
+  font-size: 1.75em ;
+  color: var(--Cyan);
+  margin-bottom: 1em;
+}
+.container-header h4 {
+  font-size: 1.29em ;
+  color: var(--BrightYellow);
+  margin-bottom: 0.5em;
+}
+.container-header p {
+  font-size: 1.1em ;
+  line-height: 1.6em;
+  font-weight: bold;
+  color: var(--GrayishBlue);
+}
+.container-footer {
+  height: 55%;
+  /*border: 1px solid red;*/
+}
+.container-footer section {
+  width: 50%;
+  height: 100%;
+  background: var(--Cyan);
+  float: left;
+  padding: 2.5em;
+  /*border:1px solid red; */
+  box-sizing: border-box;
+}
+.container-footer section:nth-child(2) {
+  opacity: 0.8;
+}
+.container-footer section h4{
+  font-size: 1.3em;
+  color: var(--LightGray);
+  margin-bottom: 1em;
+}
+.container-footer section div{
+  margin-bottom: 0.5em;
+  display: table;
+  /* border: 1px solid red;; */
+}
+.container-footer section strong{
+  font-size: 2.5em;
+  margin-right: 0.3em;
+  color: var(--LightGray);
+}
+.container-footer section span{
+  font-size: 1.1em;
+  display: table-cell;
+  vertical-align: middle;
+  opacity: 0.5;
+  color: var(--LightGray);
+}
+.container-footer section p{
+  font-size: 1.1em;
+  color: var(--LightGray);
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 2em;
+}
+.container-footer section button{
+  font-size: 1em;
+  background: var(--BrightYellow);
+  color: var(--LightGray);
+  padding: 1em 6.7em;
+  border: none; 
+  box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+.container-footer section ul li{
+  font-size: 1em;
+  color: var(--LightGray);
+  opacity: 0.7;
+ list-style-type: none;
+ line-height: 1.45em;
+}
