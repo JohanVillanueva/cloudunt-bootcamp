@@ -1,0 +1,14 @@
+:root {
+    --space-xs: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-mg: 30px;
+    --space-xl: 32px;
+    --space-xxl: 48px;
+
+    --background-one: #c0df34;
+    --background-two: #2ab2af;
+    --background-three: #53ccca;
+    --background-four: #98a6bd;
+    --ligth-gray: #e5eff5;
+}
