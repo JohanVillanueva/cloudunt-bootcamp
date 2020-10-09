@@ -1,0 +1,167 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+
+/* * Colors  */
+
+/* ? Primary 
+
+  Cyan: #2ab2af
+  BrightYellow: #c0df34
+
+*/
+:root {
+  /*?  Primary  */
+  --cyan: #2bb3b1;
+  --lightCyan: #4abebd;
+  /* #2ab2af; */
+  --brightYellow: #c0df34;
+
+  /*?  Neutral  */
+  --lightGray: #e5eff5;
+  --grayishBlue: #98a6bd;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--lightGray);
+}
+.container .card {
+  width: 40.25rem;
+  height: 30rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: -3px 4px 4px 0px rgba(0,0,0,0.3);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card .card-header {
+  background-color: #ffffff;
+  height: 43%;
+  padding: 1.8em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card .card-header .card-header-title {
+  padding: 0.3rem;
+  margin-bottom: 0.7rem;
+  color: var(--cyan);
+}
+.card .card-header .card-header-subtitle {
+  padding: 0.3rem;
+  margin-bottom: 0.3rem;
+  color: var(--brightYellow);
+}
+.card .card-header .card-header-content {
+  padding: 0 0 0 0.3rem;
+  margin-bottom: 0.5rem;
+  line-height : 25px;
+  color: var(--grayishBlue);
+}
+.card .card-body {
+  position: relative;
+  height: 57%;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+.card .card-body .card-body-subscription {
+  position: absolute;
+  padding: 2.2rem 2.4rem 2.4rem 2.4rem;
+  width: 50%;
+  height: 100%;
+  background-color: var(--cyan);
+  display: inline-block;
+  border-bottom-left-radius: 10px;
+}
+
+.subscription-title {
+  color: #ffff;
+  padding: 0.3rem;
+}
+.subscription-body {
+  color: #ffff;
+  padding: 0.5rem;
+}
+.subscription-body strong {
+  font-size: 2.3rem;
+}
+.subscription-body span {
+  color: var(--lightGray);
+}
+.subscription-text {
+  color: #ffff;
+  padding: .3rem 0px .3rem 0px;
+}
+.subscription-button {
+  background-color: var(--brightYellow);
+  border-color: var(--brightYellow);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  width: 250px;
+  margin-top: 20px;
+  box-shadow: -3px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.card .card-body .card-body-discription {
+  position: absolute;
+  padding: 2.2rem 2.4rem 2.4rem 2.4rem;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-color: var(--lightCyan);
+  display: inline-block;
+  border-bottom-right-radius: 10px;
+  color: #ffffff;
+}
+.discription-title{
+  padding: .3rem;
+  margin-bottom: .5rem;
+}
+
+.discription-content{
+  padding: .3rem;
+}
+
+.discription-content li{
+
+  color: var(--lightGray);
+  margin-bottom: .3rem;
+
+}
