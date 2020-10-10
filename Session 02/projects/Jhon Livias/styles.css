@@ -44,6 +44,8 @@ article section p{
 #section1{
   background: #2ab2af;
   padding-bottom: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 #section1 h4{
@@ -85,6 +87,7 @@ article section p{
   border-radius: 5px;
   width: 232px;
   height: 50px;
+  border-radius: 1em;
 }
 #section1 button:hover{
   
@@ -93,12 +96,13 @@ article section p{
 }
 
 #section2{
-  margin-top: -275px;
+  margin-top: -277px;
   margin-left: 300px;
   /* padding-top: 87px; */
   width: 281px;
-  height: 254px;
+  height: 256px;
   background: #4ABEBD;
+  border-bottom-right-radius: 10px;
   
 }
 
