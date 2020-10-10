@@ -1,0 +1,85 @@
+:root{
+    --color1:#c0df34;
+    --color2: white;
+}
+body{
+    background-color: #e5eff5;
+    font-family: 'Karla', sans-serif; 
+}
+article{
+    width: 50%;
+    border-radius: 1em;
+   background: var(--color2) ; 
+    margin: auto;   
+    margin-top: 5%;  
+}
+/* PARTE SUPERIOR*/
+.superior{
+    background: var(--color2) ;
+     padding: 1em 3em;
+     border-top-left-radius: 1em;
+     border-top-right-radius: 1em;     
+}
+.superior h3{
+    color: #2ab2af;
+    font-size: 150%;
+}
+.superior h4{
+    color: var(--color1);
+    font-size: 120%;
+}
+.superior p{
+    color: #98a6bd;
+    font-size: 115%;
+    line-height: 1.8;
+}
+/*PARTE INFERIOR*/
+.inferior{
+    width: 40%;
+    display: inline-block;
+}
+/*PARTE INFERIOR IZQUIERDA*/
+.izquierda{
+    background-color:  #2ab2af;
+    color:#e5eff5;
+    padding: 1.8em  1em 2em 4em;
+    border-bottom-left-radius: 1em;    
+}
+.izquierda h4{
+    font-size: 120%;
+}
+.precio strong
+{
+    font-size: 2em;
+}
+.precio span{
+    color:#57ccca ;
+}
+.izquierda button{
+    border: none;
+    font-size: 1em;
+    /* background-color: #c0df34; */
+    background: var(--color1);
+    color:#e5eff5;
+    border-radius: 5px;
+    padding: 1em 2em;
+    width: 80%;
+    margin-top: 1em; 
+    font-weight: bold;
+}
+/*PARTE INFERIOR DERECHA*/
+.derecha{
+    background-color:#57ccca ;
+    color:#e5eff5;
+    padding: 1.3em  2.3em 1.9em 2em;
+    border-bottom-right-radius: 1em;
+    line-height: 1.3;
+  
+}
+.derecha h4{
+    padding-left: 2em;
+    font-size: 120%;
+}
+.derecha li{
+    list-style-type: none;
+}
