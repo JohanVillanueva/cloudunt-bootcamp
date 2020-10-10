@@ -11,22 +11,42 @@
 body{background: lightgray;}
 * {
   font-family: 'Karla', sans-serif;
+
 }
 section{
   
   background-color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px 10px 0px 0px;
   
-}
-section2{
-  background-color:  #46f8f5;
-  float: left;
-  width: 50%;
+  text-align: center;
 }
 section1{
+  background-color:  #46f8f5;
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+  
+  border-radius: 0px 0px 10px 0px;
+  color: white;
+
+}
+section2{
   background-color: #39cfcd;
   float: left;
-  width: 50%;
+  width: 40%;
+  margin-left: 10%;
+  
+  text-align: center;
+  border-radius: 0px 0px 0px 10px;
+  color: white;
 }
+button{
+ 
+}
+
+
 
 
 aside{
