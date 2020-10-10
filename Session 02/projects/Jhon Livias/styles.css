@@ -1,0 +1,122 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+  - Cyan: #2ab2af
+  - Bright Yellow: #c0df34
+*/
+
+* {
+  font-family: 'Karla', sans-serif;
+}
+article{
+  border-radius: 10px;
+  background: white;
+  width: 580px;
+  height: 435px;
+  margin-left: 35%;
+  margin-top: 7%;
+  box-shadow: 2px 2px 10px #666;
+}
+
+article section h3{
+  color: #2ab2af;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+article section h4{
+  color:#c0df34;
+  padding-left: 20px;
+}
+
+article section p{
+  color:gray;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#section1{
+  background: #2ab2af;
+  padding-bottom: 20px;
+}
+
+#section1 h4{
+  color:white;
+  padding-top: 40px;
+  padding-left: 45px;
+}
+
+#section1 div{
+  color:white;
+  padding-left: 20px;
+  padding-left: 45px;
+}
+
+#section1 div strong{
+  
+  font-size: 30px;
+  padding-bottom: 40px;
+  
+}
+
+#section1 div span{
+  
+  font-size: 15px;
+  color: gray;
+}
+
+
+#section1 p{
+  color:white;
+  padding-left: 45px;
+  color: lightgray;
+}
+
+#section1 button{
+  border: none;
+  margin-left: 54px;
+  background: #c0df34;
+  border-radius: 5px;
+  width: 232px;
+  height: 50px;
+}
+#section1 button:hover{
+  
+  cursor: pointer;
+  box-shadow: 2px 2px 10px #666;
+}
+
+#section2{
+  margin-top: -275px;
+  margin-left: 300px;
+  /* padding-top: 87px; */
+  width: 281px;
+  height: 254px;
+  background: #4ABEBD;
+  
+}
+
+#section2 h4{
+  padding-left: 41px;
+  padding-top: 44px;
+  padding-bottom: 0;
+  color: white;
+  
+}
+
+#section2 ul{
+  list-style: none;
+  
+}
+
+#section2 ul li{
+  font-size: 13px;
+  color: lightgray;
+  
+}
