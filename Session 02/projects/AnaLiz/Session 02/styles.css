@@ -1,0 +1,74 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+
+* {
+    font-family: 'Karla', sans-serif;
+  }
+  .tarjeta{
+    /*border-style: solid;*/
+    width: 41.7%;
+    height: 180px;
+    padding: 20px 35px;
+    background-color: #FFFFFF;
+    text-align: left;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+ 
+
+   }
+  .tarjeta2{
+    /*border-style: solid;*/
+    width: 253.1px;
+    height: 210px;
+    padding: 15px 30px;
+    background-color:#2BB3B1 ;
+    text-align: left; 
+    display: inline-block;
+    float: left;
+  }
+
+  .tarjeta3{
+    /*border-style: solid;*/
+    width: 253.1px;
+    height: 210px;
+    padding: 15px 30px;
+    text-align: left;
+    background-color:#4ABEBD;
+    display: inline-block;
+    float: left;
+ 
+
+  }
+  .holitas{
+    /*background-color: red;
+    border-style: solid;*/
+    width: 47%;;
+  }
+  
+  ul{
+    color:#87D9DD;
+    padding: 0px 5px;
+  }
+  .button{
+    color: #FFFFFF;
+    background-color: #BFDF32;
+    float: left;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    font-family: sans-serif; 
+    text-align: center;
+    box-shadow:#A8A8A8;
+    
+  }
+
+
+
