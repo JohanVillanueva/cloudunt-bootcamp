@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <main>
+        form - Contenedor de campos de entrada de información
+        <br /><br />
+
+        <form>
+            <textarea placeholder="textarea - Campo de texto multilínea"></textarea><br /><br />
+
+            <select>
+                <option value="1">select - Lista desplegable de opciones</option>
+                <option value="2">option - Item 1 de lista desplegable</option>
+                <option value="3" selected>
+                    option - Item 2 de lista desplegable
+                </option>
+                <option value="4">option - Item 3 de lista desplegable</option>
+                <optgroup label="optgroup - Grupo de items">
+                    <option value="a">option - Item a</option>
+                    <option value="b">option - Item b</option>
+                    <option value="c">option - Item c</option>
+                </optgroup>
+            </select><br /><br />
+
+            <fieldset>
+                <legend>Tipos de inputs</legend>
+
+                <label for="name"><input name="name" placeholder="input - Campo de texto" /> label -
+                    Etiqueta de campo de texto </label><br />
+                <br />
+
+                <label><input type="checkbox" name="checkbox" value="some value" />checkbox - Caja de
+                    verificación</label><br /><br />
+
+                <label>
+                    <input type="radio" value="1" name="myRadio" /> radio - Botón de
+                    opción única 1
+                </label>
+                <label>
+                    <input type="radio" value="2" name="myRadio" /> radio - Botón de
+                    opción única 2 </label><br /><br />
+
+                <label>
+                    <input type="number" value="0" />
+                    number - Campos númericos </label><br /><br />
+
+                <label>
+                    <input type="password" />
+                    password - Contraseñas </label><br /><br />
+
+                <label>
+                    <input type="range" min="0" max="2" />
+                    range - Valor númerico entre un mínimo y máximo </label><br /><br />
+
+                <label>
+                    <input type="email" required placeholder="Ingrese su email" />
+                    email - Campo de texto con formato de correo </label><br /><br />
+
+                <label>
+                    <input type="time" required />
+                    time - Selección de hora </label><br /><br />
+
+                <label>
+                    <input type="date" required />
+                    date - Seleccionador de fecha </label><br /><br />
+
+                <label>
+                    <input type="month" required />
+                    month - Seleccionador de mes y año </label><br /><br />
+
+                <label>
+                    <input type="color" required />
+                    color - Seleccionador de color </label><br /><br />
+            </fieldset>
+
+            <br />
+            <button type="submit">button - Tipo Submit</button>
+            <button type="reset">button - Tipo Reset</button>
+            <button type="button">button - Tipo Button</button>
+        </form>
+    </main>
+</body>
+
+</html>
