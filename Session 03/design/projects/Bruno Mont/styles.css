@@ -1,0 +1,266 @@
+:root {
+  --fondo: #e9eeff;
+  --fondo_cabecera: #5861e2;
+  --color_titulo: #fff;
+  --size_titulo: 1.5rem;
+  --color_busqueda: #747479;
+  --size_tiempo: 1rem;
+  --size_profession: 1.2rem;
+  --size_empresa: 1rem;
+  --size_adress: 0.9rem;
+  --color_tiempo: rgb(152, 160, 160);
+  --color_profession: black;
+  --color_empresa: #b4b6c7;
+  --color_address: #8267ce;
+  --color_card1: rgb(241, 157, 234);
+  --color_card2: rgb(121, 186, 202);
+  --color_card3: rgb(94, 115, 170);
+  --color_card4: rgb(255, 198, 13);
+  --color_card5: rgb(230, 160, 96);
+  --color_card6: rgb(30, 30, 31);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--fondo);
+  box-sizing: border-box;
+}
+/*----Parte Azul------*/
+.head {
+  background-color: var(--fondo_cabecera);
+  height: 90px;
+  width: 1300px;
+  margin: 50px;
+  padding-top: 30px;
+  padding-left: 60px;
+  border-bottom-left-radius: 50px;
+  position: relative;
+}
+
+.head__titulo {
+  color: var(--color_titulo);
+  font-size: var(--size_titulo);
+  background-color: var(--fondo_cabecera);
+  position: absolute;
+  left: 100px;
+  top: 20px;
+}
+/*---Boton de tema------*/
+.head__tema {
+  position: absolute;
+  right: 70px;
+  top: 5px;
+  background-color: var(--fondo_cabecera);
+}
+
+.head__tema--sol {
+  background-color: var(--fondo_cabecera);
+  color: var(--color_titulo);
+  margin: 25px;
+}
+
+.head__tema--boton {
+  background-color: var(--fondo_cabecera);
+  color: var(--color_titulo);
+  font-size: 30px;
+  margin-top: 15px;
+  position: absolute;
+}
+
+.head__tema--luna {
+  background-color: var(--fondo_cabecera);
+  color: var(--color_titulo);
+  margin: 25px 25px 25px 60px;
+}
+/*---Buscador---*/
+.head__section {
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 40px;
+  background-color: var(--color_titulo);
+  border: solid 0.5px #d8ddec;
+  padding: 20px;
+  color: var(--color_busqueda);
+  margin: -3px;
+}
+
+.filter__title {
+  width: 40%;
+  border: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.filter__title--lupa {
+  background-color: var(--color_titulo);
+  color: var(--fondo_cabecera);
+  width: 25px;
+}
+
+.filter__title--text {
+  background-color: var(--color_titulo);
+  opacity: 0.5;
+}
+
+.filter__location {
+  width: 25%;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.filter__location--flecha {
+  background-color: var(--color_titulo);
+  color: var(--fondo_cabecera);
+  width: 25px;
+}
+
+.filter__location--text {
+  background-color: var(--color_titulo);
+  opacity: 0.5;
+}
+
+.full__time {
+  width: 24.5%;
+  position: relative;
+  border-bottom: 0;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.full__time--cuadrado {
+  background-color: var(--color_titulo);
+  color: var(--color_busqueda);
+  opacity: 0.4;
+  width: 25px;
+}
+
+.full__time--text {
+  background-color: var(--color_titulo);
+  color: var(--color_profession);
+  margin-right: 30px;
+}
+
+.full__time--button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border-color: var(--fondo_cabecera);
+  background-color: var(--fondo_cabecera);
+  color: var(--color_titulo);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/*----------------CUERPO-------------------*/
+
+.cuerpo {
+  margin: 100px 150px;
+  width: 1200px;
+}
+/*-----Cards----*/
+.cuerpo__card {
+  display: inline-block;
+  background-color: var(--color_titulo);
+  width: 330px;
+  height: 240px;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.cuerpo__card__time {
+  font-size: var(--size_tiempo);
+  color: var(--color_tiempo);
+  background-color: var(--color_titulo);
+  padding: 20px;
+}
+
+.cuerpo__card__profession {
+  font-size: var(--size_profession);
+  background-color: var(--color_titulo);
+  padding: 20px;
+}
+
+.cuerpo__card__empresa {
+  font-size: var(--size_empresa);
+  color: var(--color_empresa);
+  background-color: var(--color_titulo);
+  padding: 20px;
+}
+
+.cuerpo__card__address {
+  font-size: var(--size_adress);
+  color: var(--color_address);
+  background-color: var(--color_titulo);
+  padding: 0px 20px 20px 20px;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+}
+
+/*-------Iconos-----*/
+.cuerpo__card--rosa__icon {
+  background-color: var(--color_card1);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.cuerpo__card--celeste__icon {
+  background-color: var(--color_card2);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.cuerpo__card--azul__icon {
+  background-color: var(--color_card3);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.cuerpo__card--amarillo__icon {
+  background-color: var(--color_card4);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.cuerpo__card--naranja__icon {
+  background-color: var(--color_card5);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.cuerpo__card--negro__icon {
+  background-color: var(--color_card6);
+  font-size: 30px;
+  color: var(--color_titulo);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
