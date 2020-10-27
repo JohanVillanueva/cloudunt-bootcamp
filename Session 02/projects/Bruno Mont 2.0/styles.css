@@ -1,0 +1,114 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+
+
+/*--------------------PARTE DE ARRIBA------------------------*/
+* {
+  font-family: 'Karla', sans-serif;
+}
+
+body{
+  padding: 200px;
+  background-color:whitesmoke;
+  
+
+
+}
+section.cabecera{
+  background-color:white;
+  padding:20px;
+  width: 680px;
+  height: 200px;
+  border-top-left-radius:5px ;
+  border-top-right-radius: 5px;
+
+} 
+h3.cabecera{
+  color: #2ab2af;
+}
+h4.cabecera{
+color:#c0df34;
+
+}
+p.cabecera{
+
+  color:#98a6bd;
+  margin-top: 1px;
+}
+
+
+/**PARTE BAJA**/
+.final{
+
+  float: left;
+  
+  
+  
+}
+
+/*------------------------PARTE BAJA IZQUIERDA-------------------------------------------------*/
+
+
+section.izquierda{
+
+  background-color:#2ab2af ;
+  color: white;
+  width: 300px;
+  height: 250px;
+  padding: 30px;
+  border-bottom-left-radius: 5px;
+  
+}
+button.izquierda{
+
+  color: white;
+  font-size: inherit;
+  background-color:#c0df34;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+  margin-top:40px;
+  width: 80%;
+  height: 50px;
+  border-radius: 7%;
+  border:none;
+}
+strong.izquierda{
+  font-size: 200%;
+}
+span.izquierda{
+  opacity: 40%;
+}
+
+/*------------------------PARTE BAJA DERECHA-------------------------------------------------*/
+section.derecha{
+
+  background-color:#2ab2af ;
+  opacity: 70%;
+  color: white;
+  padding:30px;
+  width: 300px;
+  height: 250px;
+  border-bottom-right-radius: 5px;
+  
+}
+ul.derecha{
+
+  list-style: none;
+  margin-left: -40px;
+  opacity: 70%;
+}
+
+li.derecha{
+
+  margin-bottom: 8px;
+}
