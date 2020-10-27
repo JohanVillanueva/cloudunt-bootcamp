@@ -1,0 +1,85 @@
+:root{
+    --color-primary: white;
+    --color-Cyan: #2ab2af;
+    --color-BrightYellow:#c0df34;
+    --color-LightGray:#e5eff5;
+    --color-BajoCyan: #57ccca;
+}
+body{
+    background-color: var(--color-LightGray);
+    font-family: 'Karla', sans-serif; 
+}
+article{
+    width: 50%;
+    border-radius: 1em;
+    margin: auto;   
+    margin-top: 5%; 
+    overflow: hidden;
+}
+/* PARTE SUPERIOR*/
+.superior{
+    background: var(--color-primary) ;
+    padding: 1em 3em;     
+}
+.superior h3{
+    color:var(--color-Cyan);
+    font-size: 1.7em;
+}
+.superior h4{
+    color: var(--color-BrightYellow);
+}
+.superior p{
+    color: #98a6bd;
+    font-size:1.2em;
+    line-height: 1.8;
+}
+/*PARTE INFERIOR*/
+.pinferior{
+    background-color:var(--color-BajoCyan) ;
+}
+.inferior{
+    width: 40%;
+    display: inline-table;
+}
+/*PARTE INFERIOR IZQUIERDA*/
+.izquierda{
+    background-color: var(--color-Cyan);
+    color: var(--color-primary);
+    padding: 1.3em  1em 3em 4em;
+}
+.precio strong
+{
+    font-size: 2em;
+}
+.precio span{
+    color:var(--color-BajoCyan) ;
+}
+.izquierda button{
+    border: none;
+    font-size: 1em;
+    background: var(--color-BrightYellow);
+    border-radius: 0.3em;
+    padding: 1em 2em;
+    width: 80%;
+    margin-top: 1em; 
+    font-weight: bold;
+}
+/*PARTE INFERIOR DERECHA*/
+.derecha{
+    background-color:var(--color-BajoCyan) ;
+    padding: 1.2em  2.4em 2.5em 2em;
+    line-height: 1.3;
+}
+.derecha h4{
+    padding-left: 2em;
+    color: var(--color-primary);
+}
+.derecha li{
+    list-style-type: none;
+}
+.superior h4, .derecha h4, .izquierda h4{
+    font-size: 1.3em;
+}
+.izquierda button, .derecha{
+    color:var(--color-LightGray);
+}
