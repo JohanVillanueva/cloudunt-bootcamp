@@ -1,0 +1,114 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+
+* {
+  font-family: 'Karla', sans-serif;
+  
+}
+body{
+  background: var(--background-four);
+}
+/* Content body*/
+.content-body{
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 700px;
+  
+}
+/* contenido parte uno y dos */
+.content-body .content-body__first-content{
+  margin-top: 100px;
+  padding: var(--space-xl);
+  background: #ffffff;
+  border-radius: 5px 5px 0 0;
+  border: solid 1;
+}
+.content-body .content-body__second-content{
+  margin: 0;
+  display: flex;
+}
+/* primer contenido h3,h4 y p*/
+.content-body .content-body__first-content h3{
+  color: var(--background-two);
+  margin: 0;
+  
+}
+.content-body .content-body__first-content h4{
+  color: var(--background-one);
+}
+.content-body .content-body__first-content p{
+  color: var(--background-four);
+}
+
+/* segundo contenido primera seccion*/
+.content-body .content-body__second-content .second-content__firstpart{
+  background: var(--background-two);
+  border-radius: 0 0 0 5px ;
+  padding: var(--space-mg);
+  flex-basis: 48%;
+}
+/* segundo contenido, primer div: h4, divprice, p, button*/
+.content-body__second-content .second-content__firstpart .firstpart__content{
+  padding: auto;
+}
+.content-body__second-content .second-content__firstpart .firstpart__content h4{
+  color: #ffffff;
+  margin: 0 0 20px 0;
+}
+.content-body__second-content .second-content__firstpart .firstpart__content p{
+  color: #ffffff;
+  margin: 5px 0 30px 0;
+}
+.second-content__firstpart .firstpart__content .firstpart__price {
+  margin-bottom: 10px;
+}
+.second-content__firstpart .firstpart__content .firstpart__price strong{
+  margin-right: 10px;
+  font-size: var(--space-mg);
+  color: #ffffff;
+}
+.second-content__firstpart .firstpart__content .firstpart__price span{
+  color: var(--background-four);
+  font-size: 18px;
+}
+
+.second-content__firstpart .firstpart__content button{
+  border: none;
+  color: #ffffff;
+  padding: var(--space-xs) 0px var(--space-xs) 0px;
+  border-radius: 4px;
+  width: 88%;
+  background:var(--background-one);
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #888888;
+  cursor: pointer;
+}
+
+
+.content-body .content-body__second-content .second-content__secondpart{
+  background: var(--background-three);
+  border-radius: 0 0 5px 0 ;
+  padding: var(--space-mg);
+  flex-basis: 52%;
+}
+.content-body__second-content .second-content__secondpart h4{
+  color: var(--ligth-gray);
+  margin: 0;
+}
+
+.second-content__secondpart .secondpart__list{
+   color: #ffffff;
+  list-style: none;
+  padding: 0;
+}
+
