@@ -1,0 +1,62 @@
+/*
+  Challenge #2 - Basic CSS:
+
+    1. Usar Variables CSS
+    2. Organizar el código CSS por secciones
+    3. NO usar CSS Flex o CSS Grid
+    4. Hacer uso de unidades de medida relativas
+
+  * Para colores guiarse del archivo style-guide.css
+*/
+body
+* {
+  /* background: lightgray; */
+  font-family: 'Karla', sans-serif;
+  
+}
+section0{
+  float: left;
+  background-color: #f5f5f5;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px 10px 0px 0px;
+  
+  text-align: center;
+}
+
+section1{
+  background-color: #39cfcd;
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+  height: 7cm;
+  
+  text-align: center;
+  border-radius: 0px 0px 0px 10px;
+  color: white;
+}
+section2{
+  background-color:  #46f8f5;
+  float: left;
+  width: 40%;
+  margin-right: 10%;
+  
+  border-radius: 0px 0px 10px 0px;
+  color: white;
+  height: 7cm;
+}
+margen1{
+  float: left;
+  /* height: 80%; */
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+/* 
+aside{
+  float: left;
+} */
