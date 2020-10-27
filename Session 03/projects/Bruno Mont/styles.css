@@ -2,12 +2,12 @@
   --fondo: #e9eeff;
   --fondo_cabecera: #5861e2;
   --color_titulo: #fff;
-  --size_titulo: 1.5rem;
+  --size_titulo: 2.5rem;
   --color_busqueda: #747479;
-  --size_tiempo: 1rem;
-  --size_profession: 1.2rem;
-  --size_empresa: 1rem;
-  --size_adress: 0.9rem;
+  --size_tiempo: 1.5rem;
+  --size_profession: 1.7rem;
+  --size_empresa: 1.5rem;
+  --size_adress: 1rem;
   --color_tiempo: rgb(152, 160, 160);
   --color_profession: black;
   --color_empresa: #b4b6c7;
@@ -31,7 +31,7 @@
 .head {
   background-color: var(--fondo_cabecera);
   height: 90px;
-  width: 1300px;
+  width: 1800px;
   margin: 50px;
   padding-top: 30px;
   padding-left: 60px;
@@ -160,17 +160,17 @@
 
 .cuerpo {
   margin: 100px 150px;
-  width: 1200px;
+  width: 2000px;
 }
 /*-----Cards----*/
 .cuerpo__card {
   display: inline-block;
   background-color: var(--color_titulo);
-  width: 330px;
+  width: 450px;
   height: 240px;
   border-radius: 10px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-bottom: 150px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
