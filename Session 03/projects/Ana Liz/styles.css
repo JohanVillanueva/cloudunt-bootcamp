@@ -1,0 +1,155 @@
+.card__header__title{
+    background-color:#6571E1;
+    width: 100%;
+    padding: 10px 30px 60px 90px;
+    border: 1px;
+    border-radius: 0px 0px 0px 80px;
+    box-sizing: border-box;
+}
+.title__text{
+    color: white;
+    width: 200px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.title__icon{
+    margin-left: 70%;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+.menu{
+    border-style: solid;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    font-family: 'Lucida Sans';
+    display:inline-block;
+    position: relative;
+    left: 250px;
+    top: -40px;
+    border-radius: 10px 0px 0px 10px;
+    border: gray;
+    box-shadow: 2px 2px 4px gray;
+    text-align: center;
+}
+.image--lupa{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 270px;
+    top:-80px;
+
+}
+.image--ubicacion{
+    width: 25px;
+    height: 20px;
+    position: relative;
+    left: 560px;
+    top:-80px;
+}
+.image--search{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 780px;
+    top:-80px;    
+}
+.text{
+    position: relative;
+    text-align: left;
+    color:gray;
+    top:-5px;
+    width: 220px;
+    margin-left: 5px;
+    padding-left: 60px;
+}
+.text--3{
+    color: black;  
+}
+.menu--centro{
+    width: 250px;
+    border-radius: 0px
+}
+.menu--izquierda{
+    width: 290px;
+    border-radius: 0px 10px 10px 0px;
+}
+.button{
+    background-color: #6571E1;
+    color: white;
+    border: 1px;
+    border-radius: 2px 2px 2px 2px;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 880px;
+    top: -85px;
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 4px 10px gray;
+    border-radius: 5px 5px 5px 5px;
+    border: gray;
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+.image__box{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    top: -20px;
+}
+.box--box2{
+    position: relative;
+    left: 545px;
+    top: -220px;
+}
+.box--box3{
+    position: relative;
+    left: 840px;
+    top: -420px;
+}
+.box--box4{
+    position: relative;
+    left: 250px;
+    top: -370px;
+}
+.box--box5{
+    position: relative;
+    left: 545px;
+    top: -570px;
+}
+.box--box6{
+    position: relative;
+    left: 840px;
+    top: -770px;
+}
+.text__content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    box-sizing: border-box;
+    padding: 35px;
+    position: relative;
+    top: -70px;
+}
+.text__content--2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    position: relative;
+    top: -160px;
+}
+.text__content--3{
+    position: relative;
+    top: -250px;
+}
+.text__content--4{
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#6571E1;
+    top: -320px;
+}
