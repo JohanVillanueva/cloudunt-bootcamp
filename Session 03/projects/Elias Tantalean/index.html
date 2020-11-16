@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Page with CSS</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">
+                devjobs
+            </h1>
+        </header>
+
+        <nav class="navbar">
+            <label class="fas fa-search"></label>
+            <input type="text" class="navbar__search" placeholder="Filter by title, companies, expertis...">
+
+            <label class="fas fa-map-marker-alt"></label>
+            <input type="text" class="navbar__location" placeholder="Filter by location...">
+            
+            <div class="navbar__end-part">
+                <input type="checkbox"><label class="navbar__end-part__label">Full Time Only</label>
+                <button class="navbar__end-part__btn">Search</button>
+            </div>
+        </nav>
+
+        <article class="cards">
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/27/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">5h ago • Full Time</label><br>
+                <label class="cards__card--job">Senior Software Engineer</label><br>
+                <label class="cards__card--company">So Digital Inc.</label><br>
+                <label class="cards__card--city">Remote, Seoul, Tokyo, Mountain View</label>
+            </section>
+                
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/64/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">20h ago • Part time</label><br>
+                <label class="cards__card--job">Haskell and PureScript Dev</label><br>
+                <label class="cards__card--company">National Wildlife</label><br>
+                <label class="cards__card--city">Columbus, OH</label>
+            </section>
+                
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/8/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">1d ago • Part Time</label><br>
+                <label class="cards__card--job">Midlevel Back End Engineer</label><br>
+                <label class="cards__card--company">Photosnap Ltd.</label><br>
+                <label class="cards__card--city">Russia</label>
+            </section>
+                
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/35/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">2d ago • Full Time</label><br>
+                <label class="cards__card--job">Senior Application Engineer</label><br>
+                <label class="cards__card--company">Extreme Division</label><br>
+                <label class="cards__card--city">Anywhere</label>
+            </section>
+                
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/99/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">2d ago • Part Time</label><br>
+                <label class="cards__card--job">Remote DevOps Engineer</label><br>
+                <label class="cards__card--company">Multifold</label><br>
+                <label class="cards__card--city">Berlin</label>
+            </section>
+
+            <section class="cards__card">
+                <img src="https://picsum.photos/id/85/50/50" alt="Foto de Perfil" class="cards__card--image"><br>
+                <label class="cards__card--time">4d ago • Part Time</label><br>
+                <label class="cards__card--job">Desktop Support Manager</label><br>
+                <label class="cards__card--company">Hardsoft Computing</label><br>
+                <label class="cards__card--city">Columbus, OH</label>
+            </section>
+        </article>
+        
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
+</body>
+</html>
