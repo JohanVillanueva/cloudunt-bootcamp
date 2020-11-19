@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+}
+
+article {
+  flex-basis: 100%;
+  flex-grow: 1;
+  width: 100%;
+  margin: 20px;
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+article section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ibk-button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #00bb31; /*#02dd68*/
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin: auto;
+}
