@@ -1,0 +1,10 @@
+.box-3,
+.box-4,
+.box-5 {
+  width: auto;
+  flex-grow: 1;
+}
+
+.box-2 {
+  height: 80vh;
+}

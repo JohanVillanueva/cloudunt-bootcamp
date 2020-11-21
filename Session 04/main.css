@@ -27,7 +27,8 @@ body {
   background: #0049bb;
 }
 .box-2 {
-  background: #008ee7;
+  background: url("https://picsum.photos/600/500");
+  background-size: cover;
 }
 .box-3 {
   background: #00c8e2;
@@ -38,3 +39,39 @@ body {
 .box-5 {
   background: #c8a1a1;
 }
+
+/* devices-width >= 480px */
+/* @media (min-width: 480px) {
+
+} */
+
+/*
+  * For Small screens and laptops
+*/
+
+/* @media (min-width: 768px) {
+  .box-3,
+  .box-4,
+  .box-5 {
+    width: auto;
+    flex-grow: 1;
+  }
+
+  .box-2 {
+    height: 80vh;
+  }
+} */
+
+/*
+  * For Desktops
+*/
+
+/* @media (min-width: 1024px) {
+  .box-1 {
+    height: 15vh;
+  }
+
+  .box-2 {
+    height: 85vh;
+  }
+} */
