@@ -46,4 +46,38 @@ article section {
   font-size: 12px;
   font-weight: 600;
   margin: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+  /* transition-property: background, transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out; */
+}
+
+/* .ibk-button:hover {
+  background: #43f071;
+} */
+
+.ibk-button:active {
+  transform: translateY(5px);
+}
+
+.ibk-button--animate {
+  opacity: 0;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: slideUp 0.8s ease-in;
+  /* animation-delay: 1.5s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: reverse; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
